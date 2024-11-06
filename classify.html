@@ -1,0 +1,26 @@
+<html>
+<style>
+    body{
+    background-image: url();
+    background-repeat:no-repeat;
+    background-size:cover;
+    }
+</style>
+<body text="black">
+
+<center>
+    <h1>Result:</h1>
+
+    {%if value==0 %}
+    <h2 style="color:DodgerBlue;"> The cancer is Benign(0)</h2>
+    <img src="https://cdn.agilitycms.com/applied-radiology/MediaGroupings/3357/Mario_figure01a.jpg">
+
+    {%else%}
+    <h2 style="color:Tomato;">The cancer is Malignant(1)</h2>
+    <img src="https://prod-images-static.radiopaedia.org/images/15453800/13480c8e0c6c728d14ece9c9c3d2e1_big_gallery.jpeg">
+
+    {%endif%}
+</center>
+
+</body >
+</html>
